@@ -41,3 +41,6 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
     open-in-view: false
   #    drop-first: true
+server:
+  servlet:
+    context-path: /api/v1/
